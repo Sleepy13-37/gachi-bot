@@ -152,4 +152,4 @@ client.on('disconnect', function(erMsg, code) {
 		//client.login(config.token);
 });
 
-client.login(config.token);
+client.login(process.env.TOKEN);
